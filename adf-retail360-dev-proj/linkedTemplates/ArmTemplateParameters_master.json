@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-retail360-dev-proj"
+		},
+		"LS_ADLS_MI_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQL_Control_password": {
+			"value": ""
+		},
+		"LS_Databricks_accessToken": {
+			"value": ""
+		},
+		"LS_ADLS_MI_properties_typeProperties_url": {
+			"value": "https://str360proj.dfs.core.windows.net/"
+		},
+		"LS_AzureSQL_Control_properties_typeProperties_server": {
+			"value": "sql-retail360-dev-proj.database.windows.net"
+		},
+		"LS_AzureSQL_Control_properties_typeProperties_database": {
+			"value": "sqldb-retail360-control"
+		},
+		"LS_AzureSQL_Control_properties_typeProperties_userName": {
+			"value": "sqladminr360"
+		},
+		"LS_Databricks_properties_typeProperties_existingClusterId": {
+			"value": "0728-170710-ga2im5r6"
+		},
+		"LS_KeyVault_MI_properties_typeProperties_baseUrl": {
+			"value": "https://kv-retail360-dev-proj.vault.azure.net/"
+		},
+		"LS_OpenMeteo_properties_typeProperties_url": {
+			"value": "https://wttr.in"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
