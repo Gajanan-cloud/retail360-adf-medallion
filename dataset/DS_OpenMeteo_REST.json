@@ -1,0 +1,16 @@
+{
+	"name": "DS_OpenMeteo_REST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OpenMeteo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "Chennai?format=j1"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

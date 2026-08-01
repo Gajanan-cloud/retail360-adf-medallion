@@ -1,0 +1,42 @@
+{
+	"name": "DS_AzureSQL_Control",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_Control",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "entity_name",
+				"type": "varchar"
+			},
+			{
+				"name": "landing_folder",
+				"type": "varchar"
+			},
+			{
+				"name": "file_name",
+				"type": "varchar"
+			},
+			{
+				"name": "bronze_target",
+				"type": "varchar"
+			},
+			{
+				"name": "load_type",
+				"type": "varchar"
+			},
+			{
+				"name": "is_active",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "control_source_config"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

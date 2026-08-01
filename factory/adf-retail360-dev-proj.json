@@ -1,0 +1,15 @@
+{
+	"name": "adf-retail360-dev-proj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9476fb48-1130-4572-947a-c5e4bd8477eb",
+		"tenantId": "7af2887d-c03b-477c-813b-ce1705513b13"
+	}
+}
