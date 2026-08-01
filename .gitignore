@@ -1,0 +1,23 @@
+# Sensitive Security Artifacts
+*.pem
+*.key
+*.pfx
+secrets.json
+appsettings*.json
+
+# Data & Local Dump Files
+*.csv
+*.parquet
+*.json
+*.avro
+*.log
+
+# Databricks / Python local cache
+.dbx/
+__pycache__/
+.pytest_cache/
+
+# IDE / OS Configuration
+.vscode/
+.idea/
+.DS_Store
